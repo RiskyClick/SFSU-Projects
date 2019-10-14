@@ -1,0 +1,50 @@
+Keith Rich
+Homework #2
+On my honor, as an SFSU student, I Keith did not receive or give inappropriate
+help with this assignment. 
+
+Problem 1:
+^L[a-z]*, R[a-z]* 6\d{2}-4\d{2}-7\d{3} [a-z]*@sfsu.edu$
+
+
+Problem 2:
+ court tries shooting defendants 
+0     1     2        3          4
+ 
+Row 1: 
+1.a S -> • NP VP [0,0]
+1.b NP -> • N [0,0]
+1.c NP -> • PrcpNP [0,0]
+1.d PrcpNP -> • Prcp N [0,0]
+
+Row 2: court
+2.a N -> court • [0,1] scan
+2.b NP -> N • [0,1] use 2.a to complete 1.b
+2.c S -> NP • VP [0,1] use 2.b to continue 1.a
+2.d VP -> • V NP [1,1] Predict VP variant to complete 2.c
+2.e VP -> • AuxVP NP [1,1] Predict VP variant to complete 2.c
+2.f AuxVP -> • AuxV V [1,1] Predict AuxVP variant to complete 2.e
+
+Row 3: tries
+3.a V -> tries • [1,2] scan
+3.b AuxV -> tries • [1,2] alternate scan
+3.c S -> NP • VP [1, 2] use 3.b to continue 2.a
+3.d VP -> • V NP [1, 2] predict VP var to complete 3.c
+3.e VP -> • AuxVP NP [1, 2] predict VP var to complete 3.c
+3.f AuxVP -> • AuxV V [1, 2] Predict AuxVP variant to complete 3.e
+
+Row 4: shooting
+4.a V -> shooting • [2,3] scan
+4.b Prcp -> shooting • [2,3] alternate scan
+4.c S -> NP • VP [2, 3] use 4.b to continue 3.a
+4.d VP -> • V NP [2, 3] predict VP var to complete 4.c
+4.e VP -> • AuxVP NP [2, 3] predict VP var to complete 4.c
+4.f AuxVP -> • AuxV V [2, 3] Predict AuxVP variant to complete 4.e
+
+Row 5: defendants
+5.a N -> defendants • [3,4] scan
+5.b N -> defendants • [3, 4] alternate scan
+5.c S -> NP • VP [3,4] use 5.b to continue 4.a
+5.d NP -> • N [3, 4] predict VP var to complete 5.c
+5.e NP -> • PrcpNP [3, 4] predict VP var to complete 5.c
+5.f prcpNP -> prcp N [3, 4] predict prcpNP var tp complete 5.e

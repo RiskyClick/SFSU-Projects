@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html>
+    <head>
+
+        <title>
+            HomePage For Keith Rich
+        </title>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <script src="JQ.js"></script>
+        <link rel="stylesheet" type="text/css" href="site.css">
+        
+    </head>
+    
+    <body style="background-color: #80d4ff;">
+        <ul>
+            <li><a href="https://github.com/GuantanamoBae">GitHub</a></li>
+            <li><a href="https://www.linkedin.com/in/keith-rich-a2735115a/">Linked In</a></li>
+            <li><a href="mailto:keithrich18@gmail.com">Email Me</a></li>
+        </ul>
+        <div>
+            <h1> Welcome! </h1>
+            <p>I Built This Website To Showcase</p>
+            <p>Some Of What I Have Learned In</p>
+            <p>CSC 412</P>
+            <p></p>
+            <h1>A Little About Myself</h1>
+            <p>Actively Looking For An</p>
+            <p>Entry Level Position</p>
+            <p>In A Tech Company</p>
+            <h1>My Education</h1>
+            <p>I Am About A Year Away From</p>
+            <p>Completing My Bachelors In</p>
+            <P>Computer Science</p>
+            <p>From</p>
+            <p>San Francisco State</p>
+            <h1>What I Know</h1>
+            <div class="column"></div>
+            <div class="column">
+                <p>Java</P>
+                <p>C++ / C</p>
+                <p>Assembly</p>
+                <p>Ruby</p>
+            </div>
+            <div class="column">
+                <p>Java Script</P>
+                <p>Html</p>
+                <p>Python</p>
+                <p>CSS</p>
+            </div>
+            <div class="column"></div>
+            <h1>What I Have Done</h1>
+            <h1>My Experience</h1>
+            <h1>Interests</h1>
+            <p>Very Much A Hippy At Hart</p>
+            <p>Love To Go Camping</p>
+            <p>For That Matter Anything Outdoors</p>
+            <p>I Love Cooking A Meal I Have Never</p>
+            <p>Cooked Before</p>
+            <p>I Like To Think Of Myself</p>
+            <p>As A People Person</p>
+            <p>What I Watch:</p>
+            <p>Stand-Up Comedy, Planet Earth</p>
+            <p>What I Eat:</p>
+            <p>Shout Out To Burritos</p>
+            <p>What I Read:</p>
+            <p>Reddit</p>
+            <p>What I Listen To:</p>
+            <p>Muni</p>
+            <p></p>
+            <p>If You Want To Know More Look At The Top Of The Page</p>
+            <p>Lets Answer The Age Old Question Of</p>
+            <p>Can You Put The Words "Super Burritos"</p>
+            <p>On A Resume And Still Get A Job</p>
+            
+        </div>
+
+    </body>
+</html>
+
+
+---------------------------------------------------------------------------------
+
+
+
+root { 
+    display: block;
+}
+
+.column {
+    float: left;
+    width: 25%;
+    padding: 10px;
+    height: 175px; 
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color:80d4ff;
+}
+
+li {
+    border-right:1px solid #bbb;
+}
+
+li b{
+    float: left;
+    border-right: 1px solid #bbb;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li b:hover:not(.active){
+    color: #80d4ff;
+    background-color:white;
+}
+
+li:last-child {
+    border-right: 1px solid #bbb;;
+}
+
+li a {
+    float: right;
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+li a:hover:not(.active) {
+    color: #80d4ff;
+    background-color:white;
+}
+
+div {
+    color: white;
+    font-family: monospace;
+    font-size: 35px; 
+    text-align: center;
+}
+h1 {
+    color: white;
+    float: bottem;
+    text-align: center;
+    font-size: 80px;
+    font-family: monospace;
+    clear: left;
+}
+	

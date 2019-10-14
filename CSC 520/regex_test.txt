@@ -1,0 +1,41 @@
+Keith Rich
+Homework #2
+On my honor, as an SFSU student, I <name> did not receive or give inappropriate
+help with this assignment. 
+Problem 1:
+[L]{1}[e]{2}[,]{1}[\s]{1}
+[R]{1}[a-b]*[\s]{1}[6]{1}
+[0-9]{2}[-][0-9]{3}[-][0-9{4}
+[\s][a-b]*[@][a-b]*[\.][e]{1}
+[a]{1}[u]{1}$
+
+
+Problem 2:
+ court tries shooting defendants 
+0     1     2        3          4
+ 
+Row 1: E
+1.a S ? • NP VP [0,0]
+1.b NP ? • N [0,0]
+1.c NP ? • PrcpNP [0,0]
+1.d PrcpNP ? • Prcp N [0,0]
+
+Row 2: court
+2.a N ? court • [0,1] scan
+2.b NP ? N • [0,1] use 2.a to complete 1.b
+2.c S ? NP • VP [0,1] use 2.b to continue 1.a
+2.d VP ? • V NP [1,1] Predict VP variant to complete 2.c
+2.e VP ? • AuxVP NP [1,1] Predict VP variant to complete 2.c
+2.f AuxVP ? • AuxV V [1,1] Predict AuxVP variant to complete
+2.e
+
+Row 3: tries
+3.a V ? tries • [1,2] scan
+3.b AuxV ? tries • [1,2] alternate scan
+
+Row 4: shooting
+4.a V ? shooting • [2,3] scan
+4.b Prcp ? shooting • [2,3] alternate scan
+
+Row 5: defendants
+5.a N ? defendants • [3,4] scan 

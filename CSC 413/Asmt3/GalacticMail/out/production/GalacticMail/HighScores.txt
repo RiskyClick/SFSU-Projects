@@ -1,0 +1,15 @@
+Never: 1000
+Gonna: 900
+Give: 800
+You: 700
+Up: 600
+Never: 500
+Gonna: 400
+Let: 300
+You: 200
+Down: 100
+Never: 0
+Gonna: -100
+Turn: -200
+Around: -300
+And: -400

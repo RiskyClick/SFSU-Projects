@@ -1,0 +1,8 @@
+mutators 
+overloaded operators
+inherantance (1 or two questions)
+contructors
+accesors
+big 3
+function redefining (small amount)
+interfaces = public section of the class

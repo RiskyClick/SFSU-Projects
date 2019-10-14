@@ -1,0 +1,48 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/BagInterface.h
+vector
+-
+
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/LinkedBag.cpp
+cstddef
+-
+Node.h
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/Node.h
+LinkedBag.h
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/LinkedBag.h
+
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/LinkedBag.h
+Node.cpp
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/Node.cpp
+BagInterface.h
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/BagInterface.h
+
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/LinkedBag340.cpp
+
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/LinkedBagClient340.cpp
+iostream
+-
+string
+-
+vector
+-
+LinkedBag.cpp
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/LinkedBag.cpp
+LinkedBag340.cpp
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/LinkedBag340.cpp
+memory
+-
+
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/Node.cpp
+Node.h
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/Node.h
+
+C:/Users/Keith/Documents/CSC 340/asmt02/asmt02/Node.h
+
